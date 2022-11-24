@@ -7,17 +7,17 @@ projects:
   - name: "google-cloud-observability - Sandbox: Global"
     path: global
     terraform_var_files:
-      - global/tfvars/sb.tfvars
-    usage_file: global/tfvars/infracost-usage.yml
+      - tfvars/sb.tfvars
+    usage_file: tfvars/infracost-usage.yml
 
   - name: "google-cloud-observability - Nonprod: Global"
     path: global
     terraform_var_files:
-      - global/tfvars/nonprod.tfvars
-    usage_file: global/tfvars/infracost-usage.yml
+      - tfvars/nonprod.tfvars
+    usage_file: tfvars/infracost-usage.yml
 
   - name: "google-cloud-observability - Production: Global"
     path: global
     terraform_var_files:
-      - global/tfvars/prod.tfvars
-    usage_file: global/tfvars/infracost-usage.yml
+      - tfvars/prod.tfvars
+    usage_file: tfvars/infracost-usage.yml
