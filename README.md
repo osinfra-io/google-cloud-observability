@@ -12,31 +12,4 @@ Good monitoring is a staple of high-performing teams. [DevOps](https://cloud.goo
 
 ## Terraform Documentation
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-### Providers
-
-No providers.
-
-### Modules
-
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_project"></a> [project](#module_project) | git@github.com:osinfra-io/terraform-google-project | n/a |
-
-### Resources
-
-No resources.
-
-### Inputs
-
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_billing_account"></a> [billing_account](#input_billing_account) | The alphanumeric ID of the billing account this project belongs to | `string` | n/a | yes |
-| <a name="input_cis_2_2_logging_sink_project_id"></a> [cis_2_2_logging_sink_project_id](#input_cis_2_2_logging_sink_project_id) | The CIS 2.2 logging sink benchmark project ID | `string` | n/a | yes |
-| <a name="input_env"></a> [env](#input_env) | This is the environment suffix for example: sb (Sandbox), nonprod (Non-Production), prod (Production) | `string` | n/a | yes |
-| <a name="input_folder_id"></a> [folder_id](#input_folder_id) | Folder ID for the project to be created in | `string` | n/a | yes |
-
-### Outputs
-
-No outputs.
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+[**Global Infrastructure**](global/README.md)
