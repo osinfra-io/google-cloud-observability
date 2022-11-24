@@ -4,4 +4,14 @@
 version: 0.1
 
 projects:
-  - name: "Google Cloud Platform - Observability"
+  - name: "google-cloud-observability: Sandbox"
+    path: global/tfvars/sb.tfvars
+    usage-file: global/tfvars/infracost-usage.yml
+
+  - name: "google-cloud-observability: Nonprod"
+    path: global/tfvars/nonprod.tfvars
+    usage-file: global/tfvars/infracost-usage.yml
+
+  - name: "google-cloud-observability: Production"
+    path: global/tfvars/prod.tfvars
+    usage-file: global/tfvars/infracost-usage.yml
