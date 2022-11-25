@@ -1,4 +1,4 @@
-# Google Cloud Platform - Observability
+# <img align="left" width="45" height="45" src="https://user-images.githubusercontent.com/1610100/203878549-f0a70002-1ebe-4c46-9c81-474a25879879.png"> Google Cloud Platform - Observability
 
 **[GitHub Actions](https://github.com/osinfra-io/google-cloud-observability/actions):**
 
